@@ -4,3 +4,6 @@ CC = gcc
 
 all:
 	${CC} ${SRC_FILES} ${CC_FLAGS} -o contained
+
+clean:
+	rm -f contained
